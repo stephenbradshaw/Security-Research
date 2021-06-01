@@ -260,7 +260,7 @@ def main():
         description='Updater script for CrimeFlare archives',
         epilog='For educational purposes only. @hxmonsegur//RSL',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-d', '--updatehost', help='Host serving CrimeFlare files', default='http://crimeflare.net:82/domains/')
+    parser.add_argument('-d', '--updatehost', help='Host serving CrimeFlare files', default='http://crimeflare.net:83/domains/')
     parser.add_argument('-p', '--cfdbpath', help='Path to cfdb directory', default='/tmp/cfdb')
     parser.add_argument('-u', '--update', help='Designate whether we are updating', action='store_true')
 
